@@ -1,0 +1,17 @@
+Test1:
+1. Scanner class
+
+Test2:
+1. Limitation of Scanner class
+
+Test3:
+1. BufferReader to eliminate the previous problem
+
+Test4:
+1. Using a blank nextLine() to remove the same error
+
+Test5:
+1. Function of hasNextInt(): Checks if the next value we read is of a certain type (int) or the input has ended
+
+Test6:
+1. Function of hasNextDouble(): Checks if a double or character data is taken or return false

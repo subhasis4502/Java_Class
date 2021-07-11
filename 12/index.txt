@@ -1,0 +1,26 @@
+Test1:
+1. Calling a function inside a try block and generating exception out of it
+2. After mentioning throws, we cant throw its superclass exception
+
+Test2:
+1. Different types of catch declaration
+1. This declaration/way is useful if the function is know what exactly it should do if the calling function throws an exception
+
+Test3:
+1. If the function does not have any idea on how to handle the exception thrown by the calling function this type is used
+2. Here we declare the catch block in the main after creating a object
+
+Test4:
+1. A combine way of Test2 and Test3 to handle exception
+
+Test5:
+1. A throws clause may include more than 1 Exception types separated by comma
+
+Test6:
+1. Nested try-catch 
+2. If outer try generates any exception it was handled by outer catch block
+3. If inner try block generates any error it was handled by inner catch block
+4. But if there is no inner catch block to handled that perticular exception then it checked for outer catch block
+
+Test7:
+1. If the error in the 1st statement of the try block, it will immediately cause a jump to the Exception handler (catch block), skipping the rest of the statements within try blocks

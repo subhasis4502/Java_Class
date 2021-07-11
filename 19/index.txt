@@ -1,0 +1,4 @@
+Test1:
+1. Introduction to Threads
+2. Thread methods: currentThread(), getName(), getId(), getPriority(), getState()
+3. Changing Thread methods: setName("Name"), setPriority(val) 

@@ -1,0 +1,24 @@
+Test1:
+1. Introduction to 'Class' class in Reflection.
+2. The use of getClass() method
+
+Test2:
+1. getClass() only returns its parent class not the inherited classes or in terfaces
+
+Test3:
+1. data_type.class to instanciate an object of that data_type/class/interface.
+
+Test4:
+1. forName() method of Class:
+    1. It is used to load the class dynamically..
+    2. It returns the instance of the class- Class..
+    3. It should be used only if we know the fully qualified name of class. 
+    This cannot be used for primitive types (not even wrapper classes).
+2. For primitive data type it throws class not found exception
+
+Test5:
+1. getConstructor() method to the constructor used
+2. getName() method to see only the name.
+
+Test6:
+1. Showing error

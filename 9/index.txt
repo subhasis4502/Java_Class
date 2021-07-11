@@ -1,0 +1,13 @@
+Test1:
+1. Create package and use it
+
+Test2:
+1. If we omit the access specifier 'public' in the class definition, it will be hidden and will not be available from outside the package. 
+2. The classes which are not declared as public can be seen and used by other classes in the same package.
+
+Test3:
+1. create and use Sub packages
+
+Test4:
+1. Using two packages
+2. Resolving the conflict for the same name in both packages

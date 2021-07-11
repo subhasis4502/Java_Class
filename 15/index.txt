@@ -1,0 +1,26 @@
+Test1:
+1. Input/ output in Java
+2. Basic stream classes
+3. FileInputStream: Reading data from a file one byte at a time.
+4. Use of FileInputStream
+
+Test2:
+1. Copy a FileInputStream2. Using FileInputStream, FileOutputStream
+2. If no path is specified in FileOutputStream then it is created in the local file
+
+Test3:
+1. BufferedStreams and its advantage
+
+Test4:
+1. Character streams
+2. InputStream, OutputStream, PrintStream
+
+Test5:
+1. File class and its methods
+2. FileStreams: FileInputStream, FileOutputStream, FileReader, FileWriter
+
+Test6:
+1. Data streams
+
+Test7:
+1. Printing the palindrome words taken from a text file

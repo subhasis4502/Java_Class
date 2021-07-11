@@ -1,0 +1,22 @@
+Test1:
+1. Abstract class
+2. An abstract class may or may not have a abstract method
+3. Abstract method only declared in a abstract class
+4. Abstract method has no body
+5. An abastract class can be inherited
+6. Abstract class can't be instantiated
+
+Test2:
+1. Run time polymorphism
+
+Test3:
+1. Base class can not have access to its child data variable or methods
+
+Test4:
+1. If we make a method abstract then we have to define this method in the child class
+
+Test5:
+1. If we make a base class reference of a child class and overridingthe method then it show RTP
+
+Test6:
+1. We can use both 'this' or 'super', if we want to access the methods of the base class from child

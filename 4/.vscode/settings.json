@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "Test5/src",
+        "Test4/src",
+        "Test3",
+        "Test1/src",
+        "Test6/src"
+    ]
+}

@@ -1,0 +1,27 @@
+Test1:
+1. If outer try block get exception at its first line it is directly jump to the outer catch blocks without checking the inner try-catch block
+
+Test2:
+1. Using try-catch block inside a catch block
+
+Test3:
+1. Using try-catch block inside a finally but no error is generated
+
+Test4:
+1. Using try-catch block inside a finally and error is generated
+
+Test5:
+1. Inhereting the exception class to a user defined class
+2. Creating our own exceptions
+
+Test6:
+1. If we calling a function from try block and its generate an exception and this function has its own try-catch block then the catch block of the calling try block become unrechable because the exception is handled by the functions catch block
+
+Test7:
+1. Not understand need to watch again
+
+Test8:
+1. Not understand need to watch again
+
+Test9:
+1. Not understand need to watch again

@@ -1,0 +1,18 @@
+Test1:
+1. About string buffer class
+2. All string buffer methods
+
+Test2:
+1. ensureCapacity method in string buffer with 3 situations
+
+Test3:
+1. 1D Array of strings
+
+Test4:
+1. 2D Array of strings
+
+Test5:
+1. Jagged Array
+
+Test6:
+1. Creating array object and calling methods

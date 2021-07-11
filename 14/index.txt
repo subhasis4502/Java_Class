@@ -1,0 +1,18 @@
+Test1:
+1. Generics in java
+
+Test2:
+1. Use two different object in a single generic
+
+Test3:
+1. A generic function can be called with different types of arguments passed to the generic method.
+
+Test4:
+1. Rules for constructing generic methods in Java:
+    1. All generic method declarations have a type parameter section delimited by angular brackets that preceedes the method's return type..
+    2. Each type parameter section contains one or more type parameters separated by commas..
+    3. The type parameters can be used to declare the return type and act as placeholders for the types of arguments passed to the generic method..
+    4. The type parameters can represent only reference types, not primitive types (int, char, double)
+
+Test5:
+1. Creating a array

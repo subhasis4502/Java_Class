@@ -1,0 +1,11 @@
+Test1:
+1. We cant override a method if its declared as private of default in base class
+
+Test2:
+1. Package P1: Derived2 inherits P2.Derived1  [Multi-level inheritance]
+
+Test3:
+1. Static Import: allows us to access the static member of a class directly without using the fully qualified name. It is used for saving the time by typing less.
+
+Test4:
+1. Resolution if both package has the same class

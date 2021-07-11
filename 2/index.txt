@@ -1,0 +1,47 @@
+Test1:
+1. Using 'this' operator for initializing values
+
+Test2:
+1. Using 'this' operator to return the object reference.
+2. Cascaded calling
+
+Test3:
+1. Using 'this' operator to pass the reference of the object.
+
+Test4:
+1. Using 'this' operator to call some other methods for that instance
+
+Test5:
+1. Operator overloading
+
+Test6:
+1. Overloading the main function
+
+Test7:
+1. Calling static members via object and class name
+
+Test8:
+1. Overloading 2 static methods
+
+Test9:
+1. Overloading static method with non-static member methods
+
+Test10:
+1. Updating the static variable
+2. Calling a static method from non-static method is possible
+3. Calling a non-static method from static method is not possible
+
+Test11:
+1. Initialization block
+
+Test12:
+1. Declaring static block
+2. Cannot make a static reference to the non-static field
+3. Cannot call nonstatic field via class name
+
+Test13:
+1. Declaring reference of an array
+2. Allocate memory for the array
+
+Test14:
+1. Showing static block is executed only once 

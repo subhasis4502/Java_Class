@@ -1,0 +1,47 @@
+List of functions used for Reflection:
+
+1) public String getName()
+  it returns the class name...
+
+2) public static Class forName(String className) throws ClassNotFoundException
+  it loads the class and returns the reference of Class class..  
+
+3) public boolean isInterface()
+  it checks if it is an interface..
+
+4) public boolean isArray()
+  it checks if it is an array..
+
+5) public boolean isPrimitive()
+  it checks if it is primitive..
+
+6) public Class getSuperClass()
+  it returns the reference of the super class..
+
+7) public Field[] getDeclaredFields() throws SecurityException
+  returns all the fields of the class..
+
+8) public Method[] getDeclaredMethods()throws SecurityException
+   returns all the methods of the class...
+
+9) public Constructor[] getDeclaredConstructors() throws SecurityException
+  returns all the constructors of the class..
+
+10) public Object newInstance()throws InstantiationException, IllegalAccessException
+  creates new instance.
+________________________________________________________________________________________________________
+Test1:
+1. Accessing and changing the value of public fields in a class
+2. Using getDeclaredField(), setDouble().
+
+Test2:
+1. Accessing and changing the value of private field and as well as final field in a class
+2. Using setDouble() method.
+
+Test3:
+1. Invoking private/public member methods
+2. Using getDeclaredMethods(), getMethods(), getDeclaredMethod() and invoke().
+
+Test4:
+1. Accessing the constructors of an class
+2. Using getDeclaredConstructors().

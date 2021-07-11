@@ -1,0 +1,20 @@
+Test1:
+1. Hierarchical Inheritance
+
+Test2:
+1. Use interface for implementing multiple inheritence
+2. Ambiguity resolution for same methods in both parent classes
+
+Test3:
+1. Hybrid inheritance
+
+Test4:
+1. One class implements multiple interfaces
+2. To create a blank method in interface, we don't need to specify default at first
+3. We can define the method declared in parent interface in the child class of it
+
+Test5:
+1. An interface can extend other interface
+
+Test6:
+1. Multiple inheritance in inheritance

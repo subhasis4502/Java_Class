@@ -1,0 +1,32 @@
+Test1:
+1. Introduction to try catch block
+
+Test2:
+1. Only the first exception of the try block is checked
+
+Test3:
+1. If no specific catch block is mentioned then the catch block with superclass is executed
+
+Test4:
+1. If we mention a super class exception before the exceptionit it shows error
+
+Test5:
+1. Throw keyword is used to explicitly throw an exception within a method or block of code
+2. Rethrowing an exception
+
+Test6:
+1. Finally block
+
+Test7:
+1. if we explicitly throw an error, a catch block must be there to handle it
+2. If exception is not handled but then also finally is executed
+
+Test8:
+1. If proper catch block is not mentioned then the exception printed
+
+Test9:
+1. Forcibly throw an exception, even though no exception arises
+2. And for this exception error will be reported, if there is no handler to handle the exception
+
+Test10:
+1. If an exception is rethrown, then also finally block is executed

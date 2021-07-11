@@ -1,0 +1,54 @@
+Test1:
+1. Inheritence
+
+Test2:
+1. Use of super in child class
+
+Test3:
+1. Base constructor called first then child constructor
+
+Test4:
+1. If we do not use super then the default constructor is always called for Base class but parameterized constructor called for child inherited class.
+
+Test5:
+1. Using parameterized constructor for both child and parent class.
+
+Test6:
+1. Using super constructor to pass value to parent and grandparent class.
+
+Test7:
+1. Use super to call the method of its parent class
+
+Test8:
+1. We cant call a private parent method using super from child
+
+Test9:
+1. We cant reduce the visibility of a method in child class during method overriding
+
+Test10:
+1. We can increase the visibility of a method in child class during method overriding, it doesn't affect the visibilityof actual parent class method
+
+Test11:
+1. We can change the value of the same variable in the child class by variable overriding.
+
+Test12:
+1. Creating a Base referene of child class
+2. Run time polymorphism
+
+Test13:
+1. Method overloading in inheritance
+
+Test14:
+1. If we make the base method as private and we overloaded the method in child as public then always child method called
+
+Test15:
+1. If overloaded method for a special variable like double or float become private then this function never process this type of variables
+
+Test16:
+1. Final helps to stop overriding a method
+
+Test17:
+1. '==' checks only the following references are refering to the same object or not.
+
+Test18:
+1. Testing the case in Test17.
