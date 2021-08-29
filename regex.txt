@@ -1,0 +1,46 @@
+^[a-z0-9_-]{3,15}$
+
+Matcher class: Used for mathing pupose
+1. matches() -> text matches with the regular expression or not
+2. find() -> find the next expression that matches the pattern
+3. find(int start) -> searches the next expression from the given starting index
+4. group() -> returns the matched sequence
+5. start() -> returns starting index
+6. end() -> returns the ending index
+7. groupCount() -> returns total number of matched sequences
+
+Pattern class: Operate based on patterns
+1. Static Pattern compile(String regex) -> compile regex and returns the instance of pattern
+2. Matcher matcher(charSequence input) -> create matcher that matches the given input with pattern
+3. Static boolean matches(String regex) -> combination of compile and matcher class
+4. String split[] -> split the given string around the matches
+5. String pattern() -> return the regex pattern
+6. Int end() -> returns the ending index
+
+Character class: Defining the pattern
+1. [abc] -> a,b or c
+2. [^abc] -> any class except a, b, c
+3. [a-zA-Z] -> a through Z inclusive
+4. [a-d[m-p]] -> a through d or m through p(union)
+5. [a-z&&[def]] -> d,e or f (Intersection)
+6. [a-z&&[^bc]] -> a to z except b or c
+7. [a-z&&[^m-p]] -> a to z but not m to p
+
+Quantifiers: Detect occurance
+1. x? -> x occurs once or not at all
+2. x+ -> x occurs mone than once
+3. x* -> x occurs zero or more times
+4. x{n} -> x occurs n times
+5. x{n, } -> x occurs n or more times
+6. x{y,z} -> x occurs at least y times but less than z times
+
+Metacharacters: Define the characters
+1. . -> any character
+2. d -> any digit
+3. D -> any non digit
+4. s -> any white space
+5. S -> any non-white space
+6. w -> a word character
+7. W -> non word character
+8. b -> a word boundary
+9. B -> a non word boundary
